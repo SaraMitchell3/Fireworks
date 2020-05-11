@@ -15,7 +15,7 @@ var sliderRate;
 var playButton;
 
 function preload() {
- // canon = loadSound("canon.mp3"); // Background track, controlled by sliders.
+ canon = loadSound("canon.mp3"); // Background track, controlled by sliders.
 }
 
 function setup() {
@@ -26,7 +26,7 @@ function setup() {
 
   img = loadImage("bg.jpg")
   img.resize(800, 600);
-  canon = loadSound("canon.mp3"); // Background track, controlled by sliders.
+  // canon = loadSound("canon.mp3"); // Background track, controlled by sliders.
 
   // Transparency of background to leave a trail
   image(img, 0, 0);
